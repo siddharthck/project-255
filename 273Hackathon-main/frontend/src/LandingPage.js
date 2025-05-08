@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './LandingPage.css';
+import { Link } from 'react-router-dom';
+
 
 export default function LandingPage() {
   const [fileUploaded, setFileUploaded] = useState(false);
@@ -45,12 +47,9 @@ export default function LandingPage() {
               >
                 Generate EDA Report
               </a>
-              <a
-                href="#semantic-search-link"
-                className="bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-6 rounded-xl font-semibold transition duration-300"
-              >
-                Semantic Search
-              </a>
+              <Link to="/semantic-search" className="button-link semantic">Semantic Search</Link>
+
+
             </div>
           </div>
         )}
@@ -58,3 +57,5 @@ export default function LandingPage() {
     </div>
   );
 }
+
+
