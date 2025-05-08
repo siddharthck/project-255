@@ -1,4 +1,4 @@
-
+/* 
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -91,4 +91,164 @@ body {
   }
   .semantic:hover {
     background-color: #4f46e5;
-  }
+  } */
+
+
+
+
+
+  /* LandingPage.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d0d0d;
+  color: white;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0d0d0d;
+}
+
+.navbar {
+  background-color: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #e5e7eb;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #a855f7;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #a855f7;
+}
+
+.chatgpt-style-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.chatgpt-card {
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.chatgpt-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.chatgpt-subtitle {
+  font-size: 1.25rem;
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+
+.chatgpt-highlights {
+  font-size: 1rem;
+  color: #f3f4f6;
+  margin-bottom: 2rem;
+}
+
+.upload-label {
+  background-color: #a855f7;
+  color: white;
+  padding: 1.25rem 3rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.upload-label:hover {
+  background-color: #9333ea;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-name {
+  font-size: 1.125rem;
+  color: #f9fafb;
+  margin-top: 1.5rem;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.button-link {
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  color: white;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.translate {
+  background-color: #10b981;
+}
+
+.translate:hover {
+  background-color: #059669;
+}
+
+.eda {
+  background-color: #8b5cf6;
+}
+
+.eda:hover {
+  background-color: #7c3aed;
+}
+
+.semantic {
+  background-color: #6366f1;
+}
+
+.semantic:hover {
+  background-color: #4f46e5;
+}
+
+.footer {
+  background-color: #111;
+  color: #9ca3af;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.875rem;
+}
